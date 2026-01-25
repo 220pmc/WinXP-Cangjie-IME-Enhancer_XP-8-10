@@ -26,7 +26,7 @@ Starting from **Windows 8**, these problems persisted, and Microsoft further cha
 2.  **Multiple Keyboards:** You should have multiple keyboard layouts installed (e.g., English, Chinese (Taiwan), and optionally others like Japanese or Korean).
 
 > [!NOTE]
-> **Legacy vs. Modern Behavior:** In original Windows XP, the `Ctrl + Space` shortcut was a global toggle between English and the active Chinese IME even if you only have the Chinese (Taiwan) language activated. In morden Windows, you should have multiple keyboard layouts installed before using this script.
+> **Legacy vs. Modern Behaviour:** In original Windows XP, the `Ctrl + Space` shortcut was a global toggle between English and the active Chinese IME even if you only have the Chinese (Taiwan) language activated. In morden Windows, you should have multiple keyboard layouts installed before using this script.
 > 
 > **UWP Compatibility:** The Windows XP Cangjie engine is **not compatible** with modern Windows UWP (Universal Windows Platform) apps. 
 > - *Developer's Note:* This script is optimised for the vast majority of "Classic" Win32 desktop software where high-speed typing and legacy behavior are most critical.
