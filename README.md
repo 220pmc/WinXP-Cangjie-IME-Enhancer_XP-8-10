@@ -4,9 +4,9 @@
 
 ## Background
 Starting from **Windows 7**, Microsoft performed an overhaul of the Cangjie keyboard, one of the major Traditional Chinese input methods used in Hong Kong. However, the Windows 7 Cangjie input introduced serveral disadvantages for users:
-- Loss of audio cues: No beep sound is played when a character needs to be picked from multiple possible candidates
-- Changed Spacebar Logic: The `Space` key no longer inputs a space character when the related-vocabulary page appers. Instead, `Space` now moves to the the next related-vocab page. Users are forced to press `Esc` to close the vocab list before they can input a space, which severely breaks typing flow.
-- Intrusive Auto-language-Detection: The "Auto-detection" logic often erroneously switches the IME from Cangjie into alphabetic mode (e.g., when clicking the browser address bar), requiring manual correction.
+- **Loss of audio cues**: No beep sound is played when a character needs to be picked from multiple possible candidates
+- **Changed Spacebar logic**: The `Space` key no longer inputs a space character when the related-vocabulary page appers. Instead, `Space` now moves to the the next related-vocab page. Users are forced to press `Esc` to close the vocab list before they can input a space, which severely breaks typing flow.
+- **Intrusive Auto-language-Detection**: The "Auto-detection" logic often erroneously switches the IME from Cangjie into alphabetic mode (e.g., when clicking the browser address bar), requiring manual correction.
 
 Starting from **Windows 8**, these problems persisted, and Microsoft further changed the default keyboard switching shortcut from `Ctrl + Space` to `Win + Space`. This created a massive inconvenience for users with decades of muscle memory dating back to **Windows 95**. This project aims to restoring the legacy behaviour through AutoHotKey.
 
