@@ -1,4 +1,4 @@
-# Win-IME-Enhancer_XP-8-10
+# WinXP-Cangjie-IME-Enhancer_XP-8-10
 
 **Restores the classic Windows XP Ctrl+Space input switching logic to modern Windows (8/10) and adds the legacy XP Cangjie experience with a modern LShift conversion mode toggle.**
 
