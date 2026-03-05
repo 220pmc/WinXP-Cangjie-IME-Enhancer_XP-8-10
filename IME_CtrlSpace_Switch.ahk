@@ -4,8 +4,10 @@
     ; Set to true to force Chinese mode when switching to XP Cangjie keyboard, false otherwise
     static ForceNativeMode := true
 
-    ; Get handle of the current active window
-    hwnd := WinExist("A")
+    ; 1. Get the window that actually has the keyboard focus
+    hwnd := ControlGetFocus("A") 
+    if !hwnd
+        hwnd := WinExist("A")
 
     ; Use DllCall's GetWindowThreadProcessId function to retrieve Thread ID (TID)
     threadID := DllCall("GetWindowThreadProcessId", "Ptr", hwnd, "UInt", 0, "UInt")
@@ -64,7 +66,7 @@
             */
                 SendMessage(0x0283, 0x0002, 1, , "ahk_id " defaultIMEWnd)
             }
-            DetectHiddenWindows(false)
+            DetectHiddenWindows (false)
         }
     }
 }
